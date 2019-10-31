@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang = "ko">
+<head>
+    <meta charset= "UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Blog 웹 메인 페이지 </h1>
+    <ol>
+        {% for d in data %}
+            <li>{{d.id}} | <a href = "/blog/view/{{d.id}}/">{{d.title}}</a> | {{d.author}} </li>
+         {% endfor %} 
+    </ol>
+
+</body>
+</html>

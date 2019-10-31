@@ -1,0 +1,9 @@
+  {
+    "files.autoSave": "afterDelay",
+    "workbench.colorTheme": "Monokai Dimmed",
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "on",
+    "workbench.list.openMode": "doubleClick",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true
+}
